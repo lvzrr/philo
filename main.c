@@ -36,7 +36,7 @@ int	main(int argc, char **argv)
 	if (argc < 5)
 	{
 		write(stderr->_fileno, "Usage: <number_of_philosophers> "
-			"<size_to_die> <size_to_eat> <size_to_sleep> "
+			"<time_to_die> <time_to_eat> <time_to_sleep> "
 			"[max meals]\n", 32 + 44 + 12);
 		return (EXIT_FAILURE);
 	}
